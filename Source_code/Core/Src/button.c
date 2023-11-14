@@ -112,50 +112,7 @@ void getKeyInput(){
      }
    }
 }
-//define KeyReg variables for all buttons
-//int KeyReg0 = NORMAL_STATE;
-//int KeyReg1 = NORMAL_STATE;
-//int KeyReg2 = NORMAL_STATE;
-//int KeyReg3 = NORMAL_STATE;
-//int KeyReg4 = NORMAL_STATE;
-//int KeyReg5 = NORMAL_STATE;
-//
-//int button1_flag = 0;
-//int button2_flag = 0;
-//int button3_flag = 0;
-//
-//
-////read the input of button
-//void getKeyInput(){
-//		KeyReg0 = KeyReg1;
-//		KeyReg1 = KeyReg2;
-//		KeyReg2 = HAL_GPIO_ReadPin(GPIOA, BUTTON1_Pin);
-//		KeyReg3 = HAL_GPIO_ReadPin(GPIOA, BUTTON2_Pin);
-//		KeyReg4 = HAL_GPIO_ReadPin(GPIOA, BUTTON3_Pin);
-//		if((KeyReg0 == KeyReg1) && (KeyReg1 == KeyReg2)){
-//			if(KeyReg5 != KeyReg2){ // when button 1 is pressed
-//				KeyReg5 = KeyReg2;
-//				if(KeyReg5 == PRESSED_STATE){
-//					button1_flag = 1;
-//					KeyReg5 = NORMAL_STATE;
-//					}
-//				}
-//			if(KeyReg5 != KeyReg3){ // when button 2 is pressed
-//				KeyReg5 = KeyReg3;
-//				if(KeyReg5 == PRESSED_STATE){
-//					button2_flag = 1;
-//					KeyReg5 = NORMAL_STATE;
-//					}
-//				}
-//			if(KeyReg5 != KeyReg4){ // when button 3 is pressed
-//				KeyReg5 = KeyReg4;
-//				if(KeyReg4 == PRESSED_STATE){
-//					button3_flag = 1;
-//					KeyReg5 = NORMAL_STATE;
-//					}
-//				}
-//	}
-//}
+
 int isKey1Pressed(){
 	if(button1_flag == 1){
 		button1_flag = 0;
