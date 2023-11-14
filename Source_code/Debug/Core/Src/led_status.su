@@ -1,0 +1,4 @@
+led_status.c:10:6:setRed1Yellow2	8	static
+led_status.c:18:6:setRed1Green2	8	static
+led_status.c:27:6:setRed2Yellow1	8	static
+led_status.c:35:6:setRed2Green1	8	static

@@ -1,0 +1,5 @@
+display_7seg.c:10:6:display7SEG	32	static
+display_7seg.c:17:6:clearAllLed	8	static
+display_7seg.c:25:6:updateLedBuffer	16	static
+display_7seg.c:31:6:update7Seg	16	static
+display_7seg.c:59:6:displayAll7Seg	16	static
